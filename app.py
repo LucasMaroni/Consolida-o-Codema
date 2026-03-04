@@ -103,7 +103,7 @@ st.markdown("""
 N8N_WEBHOOK_URL = "https://n8n.srv1162985.hstgr.cloud/webhook/CapaCodema"
 
 # Título principal
-st.markdown('<div class="titulo-principal">📄 Capa CODEMA</div>', unsafe_allow_html=True)
+st.markdown('<div class="titulo-principal">📄 RELATÓRIO DE CONSOLIDAÇÃO | CODEMA COMERCIAL E IMPORTADORA LTDA</div>', unsafe_allow_html=True)
 
 # Formulário com labels visíveis
 with st.form("form"):
@@ -175,3 +175,4 @@ if enviar:
                 st.warning("⏳ O processamento continua em segundo plano")
             except Exception as e:
                 st.error(f"❌ Erro: {str(e)[:50]}")
+
