@@ -5,7 +5,7 @@ from datetime import datetime, date
 
 # Configuração da página
 st.set_page_config(
-    page_title="Disparar Relatório CODEMA",
+    page_title="RELATÓRIO DE CONSOLIDAÇÃO CODEMA",
     page_icon="📊",
     layout="centered"
 )
@@ -15,7 +15,7 @@ N8N_WEBHOOK_URL = "https://n8n.srv1162985.hstgr.cloud/webhook/CapaCodema"
 # Ou se for local: "http://localhost:5678/webhook/disparar-relatorio"
 
 def main():
-    st.title("📊 Disparar Relatório CODEMA")
+    st.title("📝 GERAR CAPA DA CODEMA - PDF")
     st.markdown("---")
     
     st.markdown("""
@@ -143,4 +143,5 @@ def main():
         """)
 
 if __name__ == "__main__":
+
     main()
